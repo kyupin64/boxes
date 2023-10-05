@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+}
+body {
+    background-color: #eee;
+}
+div#button {
+    text-align: center;
+    margin: 200px auto;
+    padding: 100px;
+    border: 3px solid black;
+    border-radius: 40px;
+    width: 200px;
+    font-size: 3em;
+    background-color: #ccc;
+}
+div#button:hover {
+    cursor: pointer;
+}
+.hidden {
+    display: none;
+}
+div#container {
+    margin: 90px;
+}
+div#boxContainer {
+    text-align: center;
+}
+div#box {
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+    background-color: #333;
+    margin: 10px;
+}
+div#box:hover {
+    cursor: pointer;
+}
+div#box.light {
+    background-color: #999;
+}
